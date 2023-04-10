@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "./cli/index.js"
+    "start": "./cli/index.js",
+    "support-demo": "nodenv customer-support.js"
   },
   "keywords": [
     "openai",
@@ -19,9 +20,11 @@
   "license": "MIT",
   "dependencies": {
     "@dosco/minds": "^1.8.1",
+    "dotenv": "^16.0.3",
     "import-jsx": "^5.0.0",
     "ink": "^4.1.0",
     "ink-select-input": "^5.0.0",
+    "ink-spinner": "^5.0.0",
     "ink-text-input": "^5.0.1",
     "openai": "^3.2.1",
     "react": "^18.2.0"
